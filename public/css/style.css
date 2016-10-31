@@ -1,0 +1,128 @@
+body {
+      margin: 0 auto;
+      background: #ffffff;
+      box-sizing: border-box;
+      width:auto;
+    }
+
+
+h1,h2{font-family: 'Oswald', sans-serif;
+color:#932158;
+margin-bottom: 2px;
+border-bottom: 3px solid #932158;
+font-size: 1.2em;
+}
+
+li {line-height: 1.5em;}
+
+
+
+.center-div{width: 840px;
+    margin: 0 auto;}
+
+/*Naviagation Bar*/
+.navigation-bar {
+        width: 100%;
+        height: 60px;
+        background-color: #932158;
+        box-shadow: 2.5px 2.5px 0.5px  #E1B900;
+    }
+.logo {
+        display: inline-block;
+        vertical-align: top;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+.navigation-bar > a {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 20px;
+        height: 60px;
+        line-height: 60px;
+      }
+
+
+.navigation-bar a {
+          font-family: 'Oswald', sans-serif;
+          font-size: 1.6em;
+          line-height: 60px;
+          height: 60px;
+          color: white;
+          text-decoration: none;
+                }
+/*Styles for P and A Tags */
+.text-style1 p,li{font-family: 'Oswald', sans-serif;
+font-size: 1.2em;
+color: #932158;}
+
+.text-style a{ font-family: 'Oswald', sans-serif;
+font-size: 1.2em;
+text-decoration: none;
+color: #932158;
+ }
+
+.text-style a:hover{border: 2px solid #932158;
+padding: 5px;
+background-color: #932158;
+color:white;}
+
+.footer-text-style{color: white;
+padding-bottom: 20px;
+font-family: 'Oswald', sans-serif;
+font-size: 1em;}
+
+/*Image styles*/
+.sizeimage{height: 32px;
+width: 32px;
+border-radius:50%;
+}
+/*Ids for Columns*/
+#colwrap {
+        width: 60%;
+        margin-top: 10px;
+        margin-bottom:15px;
+          }
+
+#col1 {
+        float: left;
+        line-height: 30px;
+        width: 25%;
+      }
+
+#col2{
+        float: left;
+        width: 25%;
+        line-height: 30px;
+      }
+
+#col3 {
+        float: left;
+        width: 25%;
+        line-height: 30px;
+      }
+
+#col4 {
+        float: left;
+        width: 25%;
+        line-height: 30px;
+      }
+
+#col5 {float: left;
+        width: 45%;}
+#col6 {float: left;
+           width: 45%;}
+
+#colwrap2 {width: 100%; }
+
+#footer {
+         position:absolute;
+         left:0px;
+         height:100px;
+         width:100%;
+         background:#932158;
+         margin-top: 5px;
+  }
+#clearing {
+        clear:both;}
